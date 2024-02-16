@@ -51,12 +51,28 @@ require([
                 label: "Neighborhood Name: ",
                 visible: true
             }, {
+                fieldName: "ANGLE",
+                label: "Orientation Angle: ",
+                visible: true,
+                format: {
+                    digitSeparator: true,
+                    places: 2
+                }
+            }, {
                 fieldName: "NHD_NUM_ST",
                 label: "Neighborhood Street Number: ",
                 visible: true
             }, {
                 fieldName: "Shape__Area",
                 label: "Area: ",
+                visible: true,
+                format: {
+                    digitSeparator: true,
+                    places: 2
+                }
+            }, {
+                fieldName: "Shape__Length",
+                label: "Perimeter Length: ",
                 visible: true,
                 format: {
                     digitSeparator: true,
